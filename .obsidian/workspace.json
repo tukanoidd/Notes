@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
+                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
+                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
+                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md"
+                "file": "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md"
               }
             }
           },
@@ -233,9 +233,9 @@
   },
   "active": "353547236d4053eb",
   "lastOpenFiles": [
+    "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
     "rbar/Module System/Driver/ModuleDriver/TModuleDriver.md",
     "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
-    "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
     "rbar/Module System/Widget/ModuleWidgetGroup.md",
     "rbar/Module System/Widget/ModuleWidget/ModuleWidget.md",
     "rbar/Module System/Widget/ModuleWidgetRegistry.md",

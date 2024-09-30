@@ -5,3 +5,5 @@ trait TModuleWidgetEvent {
 	fn refresh(input: <Self::Driver as TModuleDriver>::RefreshOutput) -> Self;
 }
 ```
+# Deps
+1. [[TModuleDriver]]
