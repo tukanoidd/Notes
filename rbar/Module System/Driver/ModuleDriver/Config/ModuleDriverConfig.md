@@ -7,3 +7,5 @@ struct ModuleDriverConfig where MC: TModuleDriverConfig {
 	module_config: MC,
 }
 ```
+# Deps
+1. [[TModuleDriverConfig]]

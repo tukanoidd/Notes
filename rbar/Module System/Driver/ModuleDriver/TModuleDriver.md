@@ -1,6 +1,6 @@
 ```rust
 trait TModuleDriver {
-	type Config: ModuleDriverConfig*;
+	type Config: ModuleDriverConfig;
 	type InitReq;
 	type InitOutput;
 	type RefreshReq;
@@ -19,3 +19,5 @@ trait TModuleDriver {
 		-> miette::Result<Self::RefreshOutput>;
 }
 ```
+# Deps
+1. [[ModuleDriverConfig]]
