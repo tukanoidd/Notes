@@ -12,5 +12,9 @@ trait TModuleWidgetEvent {
 	)) -> Self;
 }
 ```
+# Links
+1. #TModuleWidgetEvent_Driver -> [[TModuleDriver]]
+2. input -> #TModuleDriver_RefreshOutput 
+
 # Deps
 1. [[TModuleDriver]]

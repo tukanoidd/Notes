@@ -1,11 +1,11 @@
 ```rust
 #[derive(Serialize, Deserialize)]
-struct ModuleDriverConfig where MC: TModuleDriverConfig {
+struct ModuleDriverConfig<MDC> where MDC: TModuleDriverConfig {
 	timeout_ms: u64,
-	... (shared fields),
+	...,
 	#[serde(flatten)]
-	module_config: MC,
+	module_config: MDC,
 }
 ```
-# Deps
-1. [[TModuleDriverConfig]]
+# Links
+1. MDC -> [[TModuleDriverConfig]]

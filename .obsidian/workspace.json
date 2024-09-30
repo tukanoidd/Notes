@@ -16,24 +16,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "5f8c0362cf550e12",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cd7e933bc7e81c5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/TModuleDriver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -224,15 +206,17 @@
   },
   "active": "353547236d4053eb",
   "lastOpenFiles": [
-    "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
-    "rbar/Module System/Driver/ModuleDriver/Config/TModuleDriverConfig.md",
-    "rbar/Module System/Driver/ModuleDriver/ModuleDriver.md",
-    "rbar/Module System/Driver/ModuleDriver/TModuleDriver.md",
-    "rbar/Module System/Driver/ModuleDriverRegistry.md",
-    "rbar/Module System/Widget/ModuleWidget/ModuleWidget.md",
-    "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
-    "rbar/Module System/Widget/ModuleWidget/TModuleWidgetConfig.md",
     "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
+    "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
+    "rbar/Module System/Widget/ModuleWidget/ModuleWidget.md",
+    "rbar/Module System/Widget/ModuleWidget/Config/TModuleWidgetConfig.md",
+    "rbar/Module System/Widget/ModuleWidget/Config/ModuleWidgetConfig.md",
+    "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
+    "rbar/Module System/Widget/ModuleWidget/Config",
+    "rbar/Module System/Driver/ModuleDriverRegistry.md",
+    "rbar/Module System/Driver/ModuleDriver/TModuleDriver.md",
+    "rbar/Module System/Driver/ModuleDriver/ModuleDriver.md",
+    "rbar/Module System/Driver/ModuleDriver/Config/TModuleDriverConfig.md",
     "rbar/Module System/Widget/ModuleWidgetGroup.md",
     "rbar/Module System/Widget/ModuleWidgetRegistry.md",
     "rbar/Module System.md",
