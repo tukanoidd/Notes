@@ -1,3 +1,9 @@
+---
+tags:
+  - TModuleWidget_Driver
+  - TModuleWidget_Config
+  - TModuleWidget_Event
+---
 ```rust
 trait TModuleWidget {
 	type Driver: TModuleDriver;

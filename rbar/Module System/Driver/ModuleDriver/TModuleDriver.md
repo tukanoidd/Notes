@@ -1,3 +1,11 @@
+---
+tags:
+  - TModuleDriver_Config
+  - TModuleDriver_InitReq
+  - TModuleDriver_InitOutput
+  - TModuleDriver_RefreshReq
+  - TModuleDriver_RefreshOutput
+---
 ```rust
 trait TModuleDriver {
 	type Config: ModuleDriverConfig;
@@ -16,7 +24,7 @@ trait TModuleDriver {
 		-> miette::Result<Self::InitOutput>;
 
 	async fn refresh(module: Arc<Mutex<Self>>, req: Self::RefreshReq) 
-		-> miette::Result<Self::RefreshOutput>;
+		-> miette::Result<(Arc<Mutex<Self>>, Self::RefreshOutput)>;
 }
 ```
 # Deps
