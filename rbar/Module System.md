@@ -1,5 +1,10 @@
 # Module
 ```rust
+struct Noconfig;
+struct NoInitReq;
+struct NoInit;
+struct NoState;
+
 trait Module {
   type Config;
   type InitReq;
@@ -10,11 +15,6 @@ trait Module {
   fn new(config: Self::Config) -> miette::Result<Self>;
   async fn init(req: Self::InitReq) -> miette::Result<Self::Init>;
 }
-
-struct Noconfig;
-struct NoInitReq;
-struct NoInit;
-struct NoState;
 ```
 
 # Widget
