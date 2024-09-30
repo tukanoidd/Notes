@@ -1,59 +1,44 @@
+# Registry
+```rust
+struct Registry {
+	map: HashMap<Uuid, Module*>
+}
+```
+[*]  [[#Module]]
+
 # Module
 ```rust
-struct Noconfig;
-struct NoInitReq;
-struct NoInit;
-struct NoState;
+trait TModule {
+	type Config: TModuleConfig*;
+	type InitReq;
+	type InitOutput;
+	type RefreshReq;
+	type RefreshOutput;
 
-trait Module {
-  type Config;
-  type InitReq;
-  type Init: TryInto<Self::State, Error = Report>;
-  type State;
-
-  fn id(&self) -> Uuid;
-  fn new(config: Self::Config) -> miette::Result<Self>;
-  async fn init(req: Self::InitReq) -> miette::Result<Self::Init>;
+	fn new(config: Self::Config) -> miette::Result<Arc<Mutex<Self>>> {
+		Self::new_impl(config).tokio_mutex().arc()
+	}
+	
+	fn new_impl(config: Self::Config) -> miette::Result<Self>;
+	
+	async fn init(module: Arc<Mutex<Self>>, req: Self::InitReq) 
+		-> miette::Result<Self::InitOutput>;
 }
 ```
+[*]  [[#Module Config]]
 
-# Widget
+# Module Config
 ```rust
-trait ModuleWidget: Module {
-  type Event: Into<AppMsg>;
-  
-  fn view(&self, state: Self::State) -> Element<'_, AppMsg, Theme, Rendered> {
-    self.view_impl(state).into()
-  }
-
-  fn view_impl(&self, state: Self::State) -> impl Into<Element<'_.  AppMsg, Theme, Render>>;
-  fn update(&mut self, state: &mut Self::State) -> Option<ModuleEvent>;
+#[derive(Serialize, Deserialize)]
+struct ModuleConfig<MC, WC> where MC: TModuleConfig + TModuleWidgetConfig {
+	timeout_ms: u64,
+	... (shared fields),
+	#[serde(flatten)]
+	module_config: MC,
+	#[serde(flatten)]
+	widget_config: WC,
 }
 
-trait ModuleEvent {
-  fn id(&self) -> Uuid;
-}
-
-enum EModuleEvent {
-  Name(NameModuleEvent), 
-  ... 
-}
-
-enum EModule {
-  Name(NameModule), 
-  ... 
-}
-```
-
-# Group
-```rust
-struct ModuleGroup {
-  modules: Vec<EModule>
-}
-
-struct ModuleRows {
-  left: ModuleGroup, 
-  center: ModuleGroup, 
-  right: ModuleGroup
-}
+trait TModuleConfig: Serialize + Deserialize {}
+trait TModuleWidgetConfig: Serialize + Deserialize {}
 ```
