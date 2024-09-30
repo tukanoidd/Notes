@@ -5,4 +5,4 @@ struct Registry {
 }
 ```
 # Links
-1. [ModuleDriver]
+1. [[Enum|ModuleDriver]]

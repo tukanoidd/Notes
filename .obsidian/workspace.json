@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Enum.md",
+                "file": "rbar/Module System/Driver/ModuleDriver/Config/Trait.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Enum.md",
+                "file": "rbar/Module System/Driver/ModuleDriver/Config/Trait.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Enum.md",
+                "file": "rbar/Module System/Driver/ModuleDriver/Config/Trait.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Enum.md"
+                "file": "rbar/Module System/Driver/ModuleDriver/Config/Trait.md"
               }
             }
           },
@@ -228,8 +228,11 @@
   },
   "active": "dff86eb5f491745e",
   "lastOpenFiles": [
-    "rbar/Module System/Driver/ModuleDriver/Trait.md",
     "rbar/Module System.md",
+    "rbar/Module System/Driver/ModuleDriver/Config/Trait.md",
+    "rbar/Module System/Driver/ModuleDriver/Config/Struct.md",
+    "rbar/Module System/Driver/ModuleDriver/Config",
+    "rbar/Module System/Driver/ModuleDriver/Trait.md",
     "rbar/Module System/Driver/ModuleDriver/Enum.md",
     "rbar/Module System/Driver/Registry.md",
     "rbar/Module System/Driver/ModuleDriver",

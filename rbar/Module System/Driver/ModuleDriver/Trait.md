@@ -1,5 +1,5 @@
 ```rust
-trait ModuleDriver {
+trait TModuleDriver {
 	type Config: ModuleDriverConfig*;
 	type InitReq;
 	type InitOutput;
