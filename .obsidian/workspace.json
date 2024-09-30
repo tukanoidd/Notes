@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#TModuleWidgetConfig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -226,7 +227,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "7f9bba26c93c9ff5",
+  "active": "1a6bdce3b2a27652",
   "lastOpenFiles": [
     "TModule.md",
     "rbar/Module System.md",
