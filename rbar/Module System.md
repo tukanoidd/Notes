@@ -4,9 +4,10 @@ struct Registry {
 	map: HashMap<Uuid, Module*>
 }
 ```
-[*]  [[#Module]]
+\* [[#Enum|Module]]
 
 # Module
+## Trait
 ```rust
 trait TModule {
 	type Config: TModuleConfig*;
@@ -23,14 +24,24 @@ trait TModule {
 	
 	async fn init(module: Arc<Mutex<Self>>, req: Self::InitReq) 
 		-> miette::Result<Self::InitOutput>;
+
+	async fn refresh(module: Arc<Mutex<Self>>, req: Self::RefreshReq) 
+		-> miette::Result<Self::RefreshOutput>;
 }
 ```
-[*]  [[#Module Config]]
+\* [[#Confg|TModuleConfig]]
+## Enum
+```rust
+enum Module {
+	Name(ModuleType),
+	...
+}
+```
 
-# Module Config
+## Config
 ```rust
 #[derive(Serialize, Deserialize)]
-struct ModuleConfig<MC, WC> where MC: TModuleConfig + TModuleWidgetConfig {
+struct ModuleConfig {
 	timeout_ms: u64,
 	... (shared fields),
 	#[serde(flatten)]
@@ -40,5 +51,26 @@ struct ModuleConfig<MC, WC> where MC: TModuleConfig + TModuleWidgetConfig {
 }
 
 trait TModuleConfig: Serialize + Deserialize {}
+```
+
+## Widget
+### Trait
+```rust
+trait TModuleWidget {
+	type Module: TModule*;
+	type Config: TModuleWidgetConfig*;
+}
+```
+\* [[#Trait|TModule]]
+\** [[#|TModuleWidgetConfig]]
+### Enum 
+```rust
+enum ModuleWidget {
+	Name(ModuleWidgetType),
+	...
+}
+```
+### Config
+```rust
 trait TModuleWidgetConfig: Serialize + Deserialize {}
 ```
