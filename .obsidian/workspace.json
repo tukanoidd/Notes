@@ -11,12 +11,8 @@
             "id": "353547236d4053eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -111,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md"
-              }
+              "state": {}
             }
           },
           {
@@ -232,6 +224,7 @@
   },
   "active": "353547236d4053eb",
   "lastOpenFiles": [
+    "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
     "rbar/Module System/Driver/ModuleDriver/Config/TModuleDriverConfig.md",
     "rbar/Module System/Driver/ModuleDriver/ModuleDriver.md",
     "rbar/Module System/Driver/ModuleDriver/TModuleDriver.md",
@@ -245,7 +238,6 @@
     "rbar/Module System.md",
     "rbar/Module System/Widget/ModuleWidget/Config",
     "rbar/Module System/Widget/ModuleWidget",
-    "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
     "rbar/Module System/Driver/ModuleDriver/Config",
     "rbar/Module System/Driver/ModuleDriver",
     "rbar/Module System/Driver/ModuleDriver.md",
