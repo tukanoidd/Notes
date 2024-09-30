@@ -1,5 +1,4 @@
-# Module system
-## Module
+# Module
 ```rust
 trait Module {
   type Config;
@@ -18,7 +17,7 @@ struct NoInit;
 struct NoState;
 ```
 
-## Widget
+# Widget
 ```rust
 trait ModuleWidget: Module {
   type Event: Into<AppMsg>;
@@ -46,7 +45,7 @@ enum EModule {
 }
 ```
 
-## Group
+# Group
 ```rust
 struct ModuleGroup {
   modules: Vec<EModule>
