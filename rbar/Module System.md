@@ -1,25 +1,13 @@
----
-tags:
-  - Registry
-  - Module
-  - TModule
-  - ModuleConfig
-  - TModuleConfig
-  - ModuleWidget
-  - TModuleWidget
-  - TModuleWidgetConfig
----
-
-#Registry
+# Registry
 ```rust
 struct Registry {
 	map: HashMap<Uuid, Module*>
 }
 ```
-\* #Module 
+## Deps
+1. [[#Module]] 
 
-
-#TModule
+# TModule
 ```rust
 trait TModule {
 	type Config: TModuleConfig*;
@@ -41,10 +29,10 @@ trait TModule {
 		-> miette::Result<Self::RefreshOutput>;
 }
 ```
-\* #TModuleConfig
+## Deps
+1. [[#TModuleConfig]]
 
-
-#Module
+# Module
 ```rust
 enum Module {
 	Name(ModuleType),
@@ -52,8 +40,7 @@ enum Module {
 }
 ```
 
-
-#ModuleConfig
+# ModuleConfig
 ```rust
 #[derive(Serialize, Deserialize)]
 struct ModuleConfig {
@@ -64,23 +51,25 @@ struct ModuleConfig {
 	#[serde(flatten)]
 	widget_config: WC,
 }
+```
 
+# TModuleConfig
+```rust
 trait TModuleConfig: Serialize + Deserialize {}
 ```
 
-
-#TModuleWidget
+# TModuleWidget
 ```rust
 trait TModuleWidget {
 	type Module: TModule*;
 	type Config: TModuleWidgetConfig*;
 }
 ```
-\* #TModule
-\** #TModuleWidgetConfig 
+## Deps
+1. [[#TModule]]
+2. [[#TModuleWidgetConfig]]
 
-
-#ModuleWidget 
+# ModuleWidget 
 ```rust
 enum ModuleWidget {
 	Name(ModuleWidgetType),
@@ -88,7 +77,7 @@ enum ModuleWidget {
 }
 ```
 
-#TModuleWidgetConfig 
+# TModuleWidgetConfig 
 ```rust
 trait TModuleWidgetConfig: Serialize + Deserialize {}
 ```

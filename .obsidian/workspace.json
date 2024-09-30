@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f9bba26c93c9ff5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rbar/Module System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TModuleWidgetConfig",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -227,10 +213,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1a6bdce3b2a27652",
+  "active": "353547236d4053eb",
   "lastOpenFiles": [
-    "TModule.md",
     "rbar/Module System.md",
+    "TModule.md",
     "Module.md",
     "rbar"
   ]
