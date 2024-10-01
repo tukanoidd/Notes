@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rsynth/Widget/Module/TModuleWidget.md",
+                "file": "rsynth/ModuleDriverConfig.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rsynth/Widget/Module/TModuleWidget.md",
+                "file": "rsynth/ModuleDriverConfig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rsynth/Widget/Module/TModuleWidget.md",
+                "file": "rsynth/ModuleDriverConfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rsynth/Widget/Module/TModuleWidget.md"
+                "file": "rsynth/ModuleDriverConfig.md"
               }
             }
           },
@@ -212,8 +212,11 @@
   },
   "active": "353547236d4053eb",
   "lastOpenFiles": [
-    "rsynth/ModuleDriverConfig.md",
     "rsynth/Widget/Module/TModuleWidget.md",
+    "rsynth/Module/ModuleInputType.md",
+    "rsynth/Module/ModuleDriverType.md",
+    "rsynth/Widget/Module/TModuleDriverWidgetDescription.md",
+    "rsynth/ModuleDriverConfig.md",
     "rbar/Widget/Module/TModuleWidgetEvent.md",
     "rbar/Widget/Module/TModuleWidget.md",
     "rbar/Widget/Module/ModuleWidgetRegistry.md",
@@ -225,7 +228,6 @@
     "rmodules/ModuleDriver/TModuleDriver.md",
     "rmodules/ModuleDriver/Config/TModuleDriverConfig.md",
     "rmodules/ModuleDriver/ModuleDriver.md",
-    "rsynth/Module/ModuleInputType.md",
     "rsynth/Module",
     "rbar/ModuleDriverConfig.md",
     "rsynth/Widget/Module",
