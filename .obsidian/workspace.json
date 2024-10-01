@@ -213,6 +213,7 @@
   "active": "353547236d4053eb",
   "lastOpenFiles": [
     "rsynth/ModuleDriverConfig.md",
+    "rsynth/Widget/Module/TModuleWidget.md",
     "rbar/Widget/Module/TModuleWidgetEvent.md",
     "rbar/Widget/Module/TModuleWidget.md",
     "rbar/Widget/Module/ModuleWidgetRegistry.md",
@@ -225,7 +226,6 @@
     "rmodules/ModuleDriver/Config/TModuleDriverConfig.md",
     "rmodules/ModuleDriver/ModuleDriver.md",
     "rsynth/Module/ModuleInputType.md",
-    "rsynth/Widget/Module/TModuleWidget.md",
     "rsynth/Module",
     "rbar/ModuleDriverConfig.md",
     "rsynth/Widget/Module",
