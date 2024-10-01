@@ -11,8 +11,12 @@
             "id": "353547236d4053eb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md"
+              }
             }
           },
           {
@@ -205,32 +212,33 @@
   },
   "active": "353547236d4053eb",
   "lastOpenFiles": [
-    "rbar/Module System/Driver/ModuleDriver/Config/TModuleDriverConfig.md",
-    "rbar/Module System/Driver/ModuleDriver/Config/ModuleDriverConfig.md",
-    "rbar/Module System/Widget/ModuleWidget/TModuleWidgetEvent.md",
-    "rbar/Module System/Widget/ModuleWidget/TModuleWidget.md",
-    "rbar/Module System/Widget/ModuleWidget/ModuleWidget.md",
-    "rbar/Module System/Widget/ModuleWidget/Config/TModuleWidgetConfig.md",
-    "rbar/Module System/Widget/ModuleWidget/Config/ModuleWidgetConfig.md",
-    "rbar/Module System/Widget/ModuleWidget/Config",
-    "rbar/Module System/Driver/ModuleDriverRegistry.md",
-    "rbar/Module System/Driver/ModuleDriver/TModuleDriver.md",
-    "rbar/Module System/Driver/ModuleDriver/ModuleDriver.md",
-    "rbar/Module System/Widget/ModuleWidgetGroup.md",
-    "rbar/Module System/Widget/ModuleWidgetRegistry.md",
+    "rmodules/ModuleDriver/Config/TModuleDriverConfig.md",
+    "rmodules/ModuleDriver/TModuleDriver.md",
+    "rmodules/ModuleDriver/ModuleDriver.md",
+    "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
+    "rbar/Widget/Module/ModuleWidgetGroup.md",
+    "rsynth/Widget/Module",
+    "rsynth/Widget",
+    "rmodules/ModuleDriverRegistry.md",
+    "rsynth/Module System",
+    "rmodules",
+    "rsynth/ModuleSystem/Driver/TModuleDriver.md",
+    "rsynth/ModuleSystem/Driver",
+    "rsynth/ModuleSystem",
+    "rsynth",
+    "rbar/Widget/Module/TModuleWidgetEvent.md",
+    "rbar/Widget/Module/TModuleWidget.md",
+    "rbar/Widget/Module/ModuleWidget.md",
+    "rbar/Widget/Module/Config/TModuleWidgetConfig.md",
+    "rbar/Widget/Module/Config/ModuleWidgetConfig.md",
+    "rbar/Widget/Module/Config",
+    "rbar/Widget/Module/ModuleWidgetRegistry.md",
     "rbar/Module System.md",
-    "rbar/Module System/Widget/ModuleWidget/Config",
-    "rbar/Module System/Widget/ModuleWidget",
-    "rbar/Module System/Driver/ModuleDriver/Config",
-    "rbar/Module System/Driver/ModuleDriver",
+    "rbar/Widget/Module/Config",
+    "rbar/Widget/Module",
     "rbar/Module System/Driver/ModuleDriver.md",
-    "rbar/Module System/Widget",
-    "rbar/Module System/Driver",
     "rbar/Module System/Untitled.md",
-    "rbar/Module System",
-    "Module System",
     "TModule.md",
-    "Module.md",
-    "rbar"
+    "Module.md"
   ]
 }
