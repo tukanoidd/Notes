@@ -3,16 +3,16 @@ tags:
   - TModuleDriver_Config
   - TModuleDriver_InitReq
   - TModuleDriver_InitOutput
-  - TModuleDriver_RefreshReq
-  - TModuleDriver_RefreshOutput
+  - TModuleDriver_ProcessReq
+  - TModuleDriver_ProcessOutput
 ---
 ```rust
 trait TModuleDriver {
 	type Config: TModuleDriverConfig;
 	type InitReq;
 	type InitOutput;
-	type RefreshReq;
-	type RefreshOutput;
+	type ProcessReq;
+	type ProcessOutput;
 
 	fn new(config: ModuleDriverConfig<Self::Config>) 
 		-> miette::Result<Arc<Mutex<Self>>> 
@@ -28,12 +28,12 @@ trait TModuleDriver {
 		req: Self::InitReq
 	) -> miette::Result<Self::InitOutput>;
 
-	async fn refresh(
+	async fn process(
 		module: Arc<Mutex<Self>>, 
-		req: Self::RefreshReq
+		req: Self::ProcessReq
 	) -> miette::Result<(
 		Arc<Mutex<Self>>, 
-		Self::RefreshOutput
+		Self::ProcessOutput
 	)>;
 }
 ```
