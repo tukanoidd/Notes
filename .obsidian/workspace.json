@@ -11,12 +11,8 @@
             "id": "353547236d4053eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "rmodules/ModuleDriver/Config/ModuleDriverConfig.md"
-              }
+              "state": {}
             }
           },
           {
@@ -212,10 +204,12 @@
   },
   "active": "353547236d4053eb",
   "lastOpenFiles": [
+    "rsynth/Widget/Module/TModuleWidget.md",
+    "rsynth/ModuleDriverConfig.md",
+    "rbar/ModuleDriverConfig.md",
     "rmodules/ModuleDriver/Config/TModuleDriverConfig.md",
     "rmodules/ModuleDriver/TModuleDriver.md",
     "rmodules/ModuleDriver/ModuleDriver.md",
-    "rmodules/ModuleDriver/Config/ModuleDriverConfig.md",
     "rbar/Widget/Module/ModuleWidgetGroup.md",
     "rsynth/Widget/Module",
     "rsynth/Widget",

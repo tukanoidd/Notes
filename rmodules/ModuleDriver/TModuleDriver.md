@@ -41,4 +41,4 @@ trait TModuleDriver {
 1. #TModuleDriver_Config -> [[TModuleDriverConfig]]
 
 # Deps
-1. [[ModuleDriverConfig]]
+1. [[rbar/ModuleDriverConfig]]
